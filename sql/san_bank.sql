@@ -40,11 +40,11 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`sno`, `sender`, `receiver`, `balance`, `datetime`) VALUES
-(1, 'Padam Rai', 'Akash Rai', 480, '2021-02-13 18:07:13'),
-(2, 'Sandeep Singh', 'Prem Rathi', 640, '2021-02-14 20:44:53'),
-(7, 'Sandeep Singh', 'Rabia Ali', 455, '2021-02-15 07:34:22'),
-(8, 'Sandeep Singh', 'Prem Rathi', 700, '2021-07-09 16:46:51'),
-(9, 'Sandeep Singh', 'Akash Rai', 255, '2021-07-09 17:03:39');
+(1, 'Soumyajeet Sarkar', 'Ayush Poddar', 480, '2021-02-13 18:07:13'),
+(2, 'Sandeep Singh', 'Anirban Bid', 640, '2021-02-14 20:44:53'),
+(7, 'Sandeep Singh', 'Aadarsh', 455, '2021-02-15 07:34:22'),
+(8, 'Sandeep Singh', 'Anirban Bid', 700, '2021-07-09 16:46:51'),
+(9, 'Sandeep Singh', 'Ayush Poddar', 255, '2021-07-09 17:03:39');
 
 -- --------------------------------------------------------
 
@@ -64,16 +64,16 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `balance`) VALUES
-(1, 'Sandeep Singh', 'sandeepsingh@gmail.com', 48000),
-(2, 'Akash Rai', 'akashrai@gmail.com', 35255),
-(3, 'Padam Rai', 'raipadam@gmail.com', 40691),
-(4, 'Prem Rathi', 'premrathi@gmail.com', 49290),
-(5, 'Muskan Kumari', 'kumarimuskan@gmail.com', 40050),
-(6, 'Rabia Ali', 'rabiaali@gmail.com', 30555),
-(7, 'Pardeep Kumar', 'pardeep@gmail.com', 49877),
-(8, 'Junaid Ali', 'junaid@gmail.com', 36825),
-(9, 'Avinash Kumar', 'avinash@gmail.com', 30000),
-(10, 'Aditya Kumar', 'aditya@gmail.com', 50096);
+(1, 'Sandeep Singh', 'sandeepsingh@gmail.com', 100000),
+(2, 'Ayush Poddar', 'ayushpoddar@gmail.com', 100000),
+(3, 'Soumyajeet Sarkar', 'soumyajeetsarkar@gmail.com', 100000),
+(4, 'Anirban Bid', 'anirbanbid@gmail.com', 100000),
+(5, 'Mani Mohanta', 'manimohanta@gmail.com', 100000),
+(6, 'Aadarsh', 'aadarsh@gmail.com', 100000),
+(7, 'Saumyajit Sarkar', 'saumyajit@gmail.com', 100000),
+(8, 'Arghyadev Sarkar', 'arghyadev@gmail.com', 100000),
+(9, 'Dilkhush Jha', 'Dilkhush@gmail.com', 100000),
+(10, 'Abhishek Mohanta', 'abhishekmohanta@gmail.com', 100000);
 
 --
 -- Indexes for dumped tables
